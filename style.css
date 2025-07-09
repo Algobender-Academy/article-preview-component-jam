@@ -1,4 +1,4 @@
-@import url("Your Font of Choice");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 
 /* || REST */
 * {
@@ -16,10 +16,26 @@ img {
 /* || VARIABLES */
 :root {
   /* COLORS */
+  --WHITE: #fff;
+  --GREY-900: #48556a;
+  --GREY-500: #6e8098;
+  --GREY-400: #9daec2;
+  --GREY-200: #ecf2f8;
 
-  /* GRADIENTS */
+  /* SHADOWS */
+  --SHARE-COMPONENT-SHADOW: 0px 10px 10px 0px hsla(210, 29%, 84%, 0.5);
+  --CARD-SHADOW: 0px 40px 40px -10px hsla(210, 29%, 84%, 0.5);
 
   /* TYPOGRAPHY */
+  --FF: "Manrope", sans-serif;
+
+  --TEXT-PRESET-1: bold 1.25rem/130% var(--FF);
+  --TEXT-PRESET-1-LS: 0.0156rem;
+  --TEXT-PRESET-2-MEDIUM: 500 0.8125rem/140% var(--FF);
+  --TEXT-PRESET-2-BOLD: bold 0.8125rem/140% var(--FF);
+  --TEXT-PRESET-2-LS: 0.12%;
+  --TEXT-PRESET-3: 500 0.8125rem/140% var(--FF);
+  --TEXT-PRESET-3-LS: 25%;
 }
 
 /* || UTILITY CLASSES */
